@@ -1,0 +1,15 @@
+@import "../css/reset.css";
+
+body{
+    //background-image: url('~bear.jpg');
+    background: url('../images/bear.jpg') center center no-repeat;
+}
+
+.wrap{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 36px;
+}
