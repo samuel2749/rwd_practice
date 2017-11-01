@@ -1,0 +1,22 @@
+@import url('../css/reset.css');
+
+.wrap{
+    max-width: 800px;
+    margin: 0 auto;
+    .menu{
+        width: 200px;
+        color: blue;
+        background: black;
+        padding-top: 10px;
+        li{
+            margin-bottom: 20px;
+            color: white;
+        }
+        float: left;
+    }
+    .content{
+        margin-left: 210px;
+        background: orange;
+        color: #fff;
+    }
+}
