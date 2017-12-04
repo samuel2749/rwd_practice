@@ -19,4 +19,15 @@
         background: orange;
         color: #fff;
     }
+
+    @media (max-width: 768px){
+        .menu{
+            float: none;
+            width: 100%;
+        }
+        .content{
+            margin-left: 0;
+        }
+    }
+
 }

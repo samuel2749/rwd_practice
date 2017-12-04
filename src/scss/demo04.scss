@@ -1,0 +1,58 @@
+@import url('../css/reset.css');
+
+.wrap{
+    max-width: 960px;
+    margin: 0 auto;
+    .header{
+        position: relative;
+        height: 350px;
+
+    }
+
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 0;
+        a{
+            display: block;
+            width: 250px;
+            height: 250px;
+            text-indent: -99999px;
+            background: url("http://fakeimg.pl/250x250/");
+        }
+    }
+
+    .menu{
+        li{
+            float: left;
+            background: #3399ff;
+            border-right: 1px solid #fff;
+            a{
+                color: #fff;
+                display: block;
+                font-weight: bold;
+                text-align: center;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    @media (max-width: 768px){
+        .header{
+            height: auto;
+        }
+        .logo{
+            position: relative;
+            margin: 0 auto;
+            width: 150px;
+            a{
+                width: 150px;
+                height: 170px;
+                background: url("http://fakeimg.pl/150x170/") no-repeat;
+            }
+        }
+    }
+}
