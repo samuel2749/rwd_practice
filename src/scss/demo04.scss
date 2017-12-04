@@ -49,9 +49,23 @@
             margin: 0 auto;
             width: 150px;
             a{
+                display: block;
                 width: 150px;
                 height: 170px;
-                background: url("http://fakeimg.pl/150x170/") no-repeat;
+                background: url("http://fakeimg.pl/150x150/") no-repeat;
+            }
+        }
+        .menu{
+            float: none;
+            li{
+                float: none;
+                width: 90%;
+                margin: 0 auto 10px auto;
+                border-radius: 3px;
+                a{
+                    width: 100%;
+                    text-align: center;
+                }
             }
         }
     }
